@@ -22,7 +22,7 @@ A lightweight ASP.NET Core MVC web application to **track parcels**, **view hist
 
 | Track Parcel | Filter Results | Admin Panel |
 |--------------|----------------|-------------|
-| ![Track Parcel](https://github.com/user-attachments/assets/af955451-bc6d-4733-be6c-7cab880f1cb9) | ![Filtered Results](https://github.com/user-attachments/assets/c88e742b-8874-48cb-8827-ab7166206897) | ![Admin Panel](https://github.com/user-attachments/assets/5cbab5e2-64c1-4c6f-9c88-5971a2907f64) |
+| ![ParcelTracker](https://github.com/user-attachments/assets/c5944009-10d0-4798-84b0-bc6f5a2c6068) | ![Filtered Results](https://github.com/user-attachments/assets/c88e742b-8874-48cb-8827-ab7166206897) | ![AdminPanel](https://github.com/user-attachments/assets/63aca8a6-6c0c-49c8-95e0-ac2afd1e2421)|
 
 
 # 🚀 Getting Started
@@ -81,21 +81,23 @@ http://localhost:5000/Home/Admin → add a new parcel update (Admin)
 
 ---
 ## 📌 TODO / Coming Soon
- []Export tracking report as PDF
+ .[]Export tracking report as PDF
 
- []Add timeline visual for parcel history
+ .[]Add timeline visual for parcel history
 
- []Style with Bootstrap 5 for mobile-first UX
+ .[]Style with Bootstrap 5 for mobile-first UX
 
- []Add status icons / color indicators
+ .[]Add status icons / color indicators
 
- []Add search + sort controls to list view
+ .[]Add search + sort controls to list view
 
- []Enable real email notifications (SMTP)
+ .[]Enable real email notifications (SMTP)
+
+
 
 ---
 
 ## 👨‍💻 Author
 
-Created for demonstration purposes by <Lindiwe Thabsile Dlomo>
+Created for demonstration purposes by Lindiwe Thabsile Dlomo
 ---
