@@ -57,7 +57,7 @@ LaserLogisticsParcelTrackerWeb/
 2. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/LaserLogisticsParcelTrackerWeb.git
+   git clone https://github.com/LindiweD-Collab/LaserLogisticsParcelTrackerWeb.git
    cd LaserLogisticsParcelTrackerWeb
    ```
 3. Run:
@@ -94,8 +94,6 @@ http://localhost:5000/Home/Admin → add a new parcel update (Admin)
  .[]Enable real email notifications (SMTP)
 
 
-
----
 
 ## 👨‍💻 Author
 
