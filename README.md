@@ -81,21 +81,21 @@ http://localhost:5000/Home/Admin → add a new parcel update (Admin)
 
 ---
 ## 📌 TODO / Coming Soon
- .[]Export tracking report as PDF
+ - Export tracking report as PDF
 
- .[]Add timeline visual for parcel history
+ - Add timeline visual for parcel history
 
- .[]Style with Bootstrap 5 for mobile-first UX
+ - Style with Bootstrap 5 for mobile-first UX
 
- .[]Add status icons / color indicators
+ - Add status icons / color indicators
 
- .[]Add search + sort controls to list view
+ - Add search + sort controls to list view
 
- .[]Enable real email notifications (SMTP)
+ - Enable real email notifications (SMTP)
 
 
 
 ## 👨‍💻 Author
 
-Created for demonstration purposes by Lindiwe Thabsile Dlomo
----
+Created for demonstration purposes by [Lindiwe Thabsile Dlomo](https://github.com/LindiweD-Collab)
+
