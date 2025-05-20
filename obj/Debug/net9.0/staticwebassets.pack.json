@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "/home/umuzirecruit/LaserLogisticsParcelTrackerWeb/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.LaserLogisticsParcelTrackerWeb.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.LaserLogisticsParcelTrackerWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.build.LaserLogisticsParcelTrackerWeb.props",
+      "PackagePath": "build\\LaserLogisticsParcelTrackerWeb.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.LaserLogisticsParcelTrackerWeb.props",
+      "PackagePath": "buildMultiTargeting\\LaserLogisticsParcelTrackerWeb.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.LaserLogisticsParcelTrackerWeb.props",
+      "PackagePath": "buildTransitive\\LaserLogisticsParcelTrackerWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,362 @@
+{
+  "Version": 1,
+  "Hash": "WkWt7BJa5wmIYM4dLCk6aXrzk81tYAVForRLUAXd50M=",
+  "Source": "LaserLogisticsParcelTrackerWeb",
+  "BasePath": "_content/LaserLogisticsParcelTrackerWeb",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "LaserLogisticsParcelTrackerWeb/wwwroot",
+      "Source": "LaserLogisticsParcelTrackerWeb",
+      "ContentRoot": "/home/umuzirecruit/LaserLogisticsParcelTrackerWeb/wwwroot/",
+      "BasePath": "_content/LaserLogisticsParcelTrackerWeb",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/home/umuzirecruit/LaserLogisticsParcelTrackerWeb/obj/Debug/net9.0/compressed/npr82vbkhr-8puwit2ch0.gz",
+      "SourceId": "LaserLogisticsParcelTrackerWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/umuzirecruit/LaserLogisticsParcelTrackerWeb/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/LaserLogisticsParcelTrackerWeb",
+      "RelativePath": "css/site#[.{fingerprint=8puwit2ch0}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/umuzirecruit/LaserLogisticsParcelTrackerWeb/wwwroot/css/site.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "fn5cl8qbhd",
+      "Integrity": "m1xBwuxXN/EYPlFOMZZ+zNXoVsqVFC67Rqi4riWeOnA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/umuzirecruit/LaserLogisticsParcelTrackerWeb/wwwroot/css/site.css"
+    },
+    {
+      "Identity": "/home/umuzirecruit/LaserLogisticsParcelTrackerWeb/wwwroot/css/site.css",
+      "SourceId": "LaserLogisticsParcelTrackerWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/umuzirecruit/LaserLogisticsParcelTrackerWeb/wwwroot/",
+      "BasePath": "_content/LaserLogisticsParcelTrackerWeb",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8puwit2ch0",
+      "Integrity": "bGmTdndDnO8jS4W3+LHYZ8SOaN1g7XRH6bPn1R79dlQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/site.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/site.8puwit2ch0.css",
+      "AssetFile": "/home/umuzirecruit/LaserLogisticsParcelTrackerWeb/obj/Debug/net9.0/compressed/npr82vbkhr-8puwit2ch0.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002109704641"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "473"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m1xBwuxXN/EYPlFOMZZ+zNXoVsqVFC67Rqi4riWeOnA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 14:22:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"bGmTdndDnO8jS4W3+LHYZ8SOaN1g7XRH6bPn1R79dlQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8puwit2ch0"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bGmTdndDnO8jS4W3+LHYZ8SOaN1g7XRH6bPn1R79dlQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.8puwit2ch0.css",
+      "AssetFile": "/home/umuzirecruit/LaserLogisticsParcelTrackerWeb/wwwroot/css/site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1017"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bGmTdndDnO8jS4W3+LHYZ8SOaN1g7XRH6bPn1R79dlQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 14:22:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8puwit2ch0"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bGmTdndDnO8jS4W3+LHYZ8SOaN1g7XRH6bPn1R79dlQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.8puwit2ch0.css.gz",
+      "AssetFile": "/home/umuzirecruit/LaserLogisticsParcelTrackerWeb/obj/Debug/net9.0/compressed/npr82vbkhr-8puwit2ch0.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "473"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m1xBwuxXN/EYPlFOMZZ+zNXoVsqVFC67Rqi4riWeOnA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 14:22:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8puwit2ch0"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-m1xBwuxXN/EYPlFOMZZ+zNXoVsqVFC67Rqi4riWeOnA="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "/home/umuzirecruit/LaserLogisticsParcelTrackerWeb/obj/Debug/net9.0/compressed/npr82vbkhr-8puwit2ch0.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002109704641"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "473"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m1xBwuxXN/EYPlFOMZZ+zNXoVsqVFC67Rqi4riWeOnA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 14:22:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"bGmTdndDnO8jS4W3+LHYZ8SOaN1g7XRH6bPn1R79dlQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bGmTdndDnO8jS4W3+LHYZ8SOaN1g7XRH6bPn1R79dlQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "/home/umuzirecruit/LaserLogisticsParcelTrackerWeb/wwwroot/css/site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1017"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bGmTdndDnO8jS4W3+LHYZ8SOaN1g7XRH6bPn1R79dlQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 14:22:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bGmTdndDnO8jS4W3+LHYZ8SOaN1g7XRH6bPn1R79dlQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "/home/umuzirecruit/LaserLogisticsParcelTrackerWeb/obj/Debug/net9.0/compressed/npr82vbkhr-8puwit2ch0.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "473"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m1xBwuxXN/EYPlFOMZZ+zNXoVsqVFC67Rqi4riWeOnA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 14:22:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-m1xBwuxXN/EYPlFOMZZ+zNXoVsqVFC67Rqi4riWeOnA="
+        }
+      ]
+    }
+  ]
+}
