@@ -54,7 +54,7 @@ LaserLogisticsParcelTrackerWeb/
 
 ```
 
-## 🏃 How to Run on Linux
+## 🏃 How to Run 
 1. Install [.NET SDK 6+](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
 2. Clone the repository:
 
