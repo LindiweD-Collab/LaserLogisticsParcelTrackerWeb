@@ -40,6 +40,8 @@ LaserLogisticsParcelTrackerWeb/
 ├── Views/
 │   └── Home/
 │       └── Index.cshtml
+|       └── Admin.cshtml
+|       └── List.cshtml
 ├── wwwroot/
 │   └── css/site.css
 ├── Data/
