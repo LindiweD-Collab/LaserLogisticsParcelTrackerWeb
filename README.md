@@ -75,11 +75,11 @@ dotnet run
 
 You can test:
 
-http://localhost:5000/Home/Index?trackingNumber=LL12345 → shows parcel status
+`http://localhost:5000/Home/Index?trackingNumber=LL12345` → shows parcel status
 
-http://localhost:5000/Home/Download?trackingNumber=LL67890 → downloads .txt report
+`http://localhost:5000/Home/Download?trackingNumber=LL67890` → downloads .txt report
 
-http://localhost:5000/Home/Admin → add a new parcel update (Admin)
+`http://localhost:5000/Home/Admin` → add a new parcel update (Admin)
 
 ---
 ## 📌 TODO / Coming Soon
