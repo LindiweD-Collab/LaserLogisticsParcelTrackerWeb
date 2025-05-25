@@ -5,29 +5,29 @@ A lightweight ASP.NET Core MVC web application to **track parcels**, **view hist
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🔍 Track parcels using a **tracking number**
-- 📊 View detailed **status history** with dates
-- 🗂 Filter parcels by **status**, **start date**, and **end date**
-- 🛠 Admin panel to **add or update parcel statuses**
-- 📨 (Mock) **Email notifications** on parcel updates
-- 📄 Download a **tracking report** (.txt)
-- 💾 File-based data persistence (`Data/parcels.txt`)
-- 📱 Mobile-friendly design using **Bootstrap** (coming soon)
+-  Track parcels using a **tracking number**
+-  View detailed **status history** with dates
+-  Filter parcels by **status**, **start date**, and **end date**
+-  Admin panel to **add or update parcel statuses**
+-  (Mock) **Email notifications** on parcel updates
+-  Download a **tracking report** (.txt)
+-  File-based data persistence (`Data/parcels.txt`)
+-  Mobile-friendly design using **Bootstrap** (coming soon)
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 | Track Parcel | Filter Results | Admin Panel |
 |--------------|----------------|-------------|
 | ![ParcelTracker](https://github.com/user-attachments/assets/c5944009-10d0-4798-84b0-bc6f5a2c6068) | ![FilteredResults](https://github.com/user-attachments/assets/bbbdb6a6-f135-4d73-9dd7-61c8f17d0aa7) | ![AdminPanel](https://github.com/user-attachments/assets/63aca8a6-6c0c-49c8-95e0-ac2afd1e2421)|
 
 
-# 🚀 Getting Started
+#  Getting Started
 
-## 🏗 Project Structure
+##  Project Structure
 
 ```
 LaserLogisticsParcelTrackerWeb/
@@ -54,7 +54,7 @@ LaserLogisticsParcelTrackerWeb/
 
 ```
 
-## 🏃 How to Run 
+##  How to Run 
 1. Install [.NET SDK 6+](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
 2. Clone the repository:
 
@@ -71,7 +71,7 @@ dotnet run
 4. Open your browser and go to `http://localhost:5000`
 
 
-## 🧪 Test
+##  Test
 
 You can test:
 
@@ -82,7 +82,7 @@ You can test:
 `http://localhost:5000/Home/Admin` → add a new parcel update (Admin)
 
 ---
-## 📌 TODO / Coming Soon
+##  TODO / Coming Soon
  - Export tracking report as PDF
 
  - Add timeline visual for parcel history
@@ -97,7 +97,7 @@ You can test:
 
 
 
-## 👨‍💻 Author
+##  Author
 
 Created for demonstration purposes by [Lindiwe Thabsile Dlomo](https://github.com/LindiweD-Collab)
 
