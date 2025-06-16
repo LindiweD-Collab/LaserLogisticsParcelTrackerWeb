@@ -1,5 +1,3 @@
-LL12345,In Transit,2025-05-01,client@example.com
-LL12345,Delivered,2025-05-03,client@example.com
 LL67890,Sorting Center,2025-05-10,
-LL12345,In-transit,2025-05-20,lindiwe@linkedme.co.za
-LL12345,In-transit,2025-05-20,lindiwe@linkedme.co.za
+LL123456,In-transit,2025-06-16,lindiwethaby@hotmail.com
+LL12345,Delivered,2025-06-16 20:42:30

@@ -1,0 +1,39 @@
+@model LaserLogisticsParcelTrackerWeb.Models.DashboardViewModel
+@{
+    ViewData["Title"] = "Analytics Dashboard";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="row">
+    <div class="col-md-6">
+        <h3>Current Parcel Status</h3>
+        <ul class="list-group">
+            @foreach (var status in Model.StatusCounts)
+            {
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    @status.Key
+                    <span class="badge bg-primary rounded-pill">@status.Value</span>
+                </li>
+            }
+        </ul>
+    </div>
+    <div class="col-md-6">
+        <h3>Stale Parcels (No update in 7+ days)</h3>
+        @if (Model.StaleParcels.Any())
+        {
+            <ul class="list-group">
+                @foreach (var parcel in Model.StaleParcels)
+                {
+                    <li class="list-group-item">
+                        <strong>@parcel.TrackingNumber</strong> - Last Update: @parcel.Updates.First().Date.ToShortDateString()
+                    </li>
+                }
+            </ul>
+        }
+        else
+        {
+            <p>No stale parcels found. Great job!</p>
+        }
+    </div>
+</div>

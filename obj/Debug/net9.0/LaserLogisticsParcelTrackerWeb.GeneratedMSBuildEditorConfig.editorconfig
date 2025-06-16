@@ -24,10 +24,26 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9BZG1pbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/umuzirecruit/LaserLogisticsParcelTrackerWeb/Views/Home/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9EYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/umuzirecruit/LaserLogisticsParcelTrackerWeb/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/umuzirecruit/LaserLogisticsParcelTrackerWeb/Views/Home/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9MaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/umuzirecruit/LaserLogisticsParcelTrackerWeb/Views/Home/MyParcels.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9NeVBhcmNlbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/umuzirecruit/LaserLogisticsParcelTrackerWeb/Views/Home/UpdateEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9VcGRhdGVFbWFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/umuzirecruit/LaserLogisticsParcelTrackerWeb/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

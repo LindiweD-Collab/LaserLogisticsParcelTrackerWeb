@@ -38,7 +38,7 @@ input[type="text"] {
 button {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #007bff;
+    background-color: #8c53b3;
     color: white;
     border: none;
     border-radius: 6px;
@@ -47,7 +47,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #a6c6e9;
 }
 
 .result {
@@ -57,7 +57,7 @@ button:hover {
 
 .status {
     font-weight: bold;
-    color: green;
+    color: rgb(31, 109, 31);
 }
 
 .not-found {
