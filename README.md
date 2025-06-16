@@ -36,7 +36,7 @@ A lightweight ASP.NET Core MVC web application to **track parcels**, **view hist
 
 | Track Parcel | Filter Results | Admin Panel |
 |--------------|----------------|-------------|
-| ![ParcelTracker](https://github.com/user-attachments/assets/c5944009-10d0-4798-84b0-bc6f5a2c6068) | ![FilteredResults](https://github.com/user-attachments/assets/bbbdb6a6-f135-4d73-9dd7-61c8f17d0aa7) | ![AdminPanel](https://github.com/user-attachments/assets/63aca8a6-6c0c-49c8-95e0-ac2afd1e2421)|
+| ![ParcelTracker](parcelstracker.png) | ![FilteredResults](parcels.png) | ![AdminPanel](parcelsadmin.png)|
 
 
 #  Getting Started
