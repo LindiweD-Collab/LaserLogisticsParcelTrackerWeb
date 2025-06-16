@@ -7,14 +7,22 @@ A lightweight ASP.NET Core MVC web application to **track parcels**, **view hist
 
 ##  Features
 
--  Track parcels using a **tracking number**
--  View detailed **status history** with dates
--  Filter parcels by **status**, **start date**, and **end date**
--  Admin panel to **add or update parcel statuses**
--  (Mock) **Email notifications** on parcel updates
--  Download a **tracking report** (.txt)
--  File-based data persistence (`Data/parcels.txt`)
--  Mobile-friendly design using **Bootstrap** (coming soon)
+-  **Parcel Tracking:** Track any parcel using its unique tracking number.
+-  **Admin Dashboard:** A central hub for administrators showing:
+    -   **Status Analytics:** See counts of parcels for each status (e.g., "In Transit," "Delivered").
+    -   **Stale Parcel Detection:** Automatically flags parcels that haven't been updated recently.
+    -   **Parcel Management:** A list of all active parcels with quick-action buttons.
+-  **User-Specific Search:** Users can find all parcels associated with their email address.
+-  **Full CRUD Operations:**
+    -   **Create:** Add new parcel updates.
+    -   **Read:** View detailed parcel history with dates.
+    -   **Update:** Change the email address associated with a parcel.
+    -   **Delete:** Permanently delete a parcel and its entire history.
+-  **Parcel Archiving:** Archive completed or old parcels to a separate file (`parcels_archive.txt`) to keep the active database clean.
+-  **Download Reports:** Download a simple text-based tracking report for any parcel.
+-  **Styled with Bootstrap & Font Awesome:** A clean UI with icons for a better user experience.
+-  **File-Based Persistence:** All data is stored in simple, human-readable `.txt` files in the `Data/` directory.
+
 
 ---
 
@@ -32,26 +40,30 @@ A lightweight ASP.NET Core MVC web application to **track parcels**, **view hist
 ```
 LaserLogisticsParcelTrackerWeb/
 ├── Controllers/
-│   └── HomeController.cs
-├── Models/
-│   └── Parcel.cs
-├── Services/
-│   └── ParcelService.cs
-├── Views/
-│   └── Home/
-│       └── Index.cshtml
-|       └── Admin.cshtml
-|       └── List.cshtml
-├── wwwroot/
-│   └── css/site.css
+│   └── HomeController.cs         
 ├── Data/
-│   └── parcels.txt
+│   ├── parcels.txt               
+│   └── parcels_archive.txt       
+├── Models/
+│   ├── Parcel.cs                 
+│   ├── DashboardViewModel.cs     
+│   └── MyParcelsViewModel.cs     
+├── Services/
+│   └── ParcelService.cs          
+├── Views/
+│   ├── Home/
+│   │   ├── Admin.cshtml
+│   │   ├── Index.cshtml
+│   │   ├── List.cshtml
+│   │   ├── MyParcels.cshtml
+│   │   └── UpdateEmail.cshtml
+│   └── _ViewImports.cshtml       
+├── wwwroot/
+│   └── css   └── style.css             
 ├── appsettings.json
-├── Program.cs
-├── Startup.cs
+├── Program.cs                    
 ├── LaserLogisticsParcelTrackerWeb.csproj
 └── README.md
-
 ```
 
 ##  How to Run 
@@ -73,27 +85,20 @@ dotnet run
 
 ##  Test
 
-You can test:
+Once the application is running, you can try the following URLs:
 
-`http://localhost:5000/Home/Index?trackingNumber=LL12345` → shows parcel status
-
-`http://localhost:5000/Home/Download?trackingNumber=LL67890` → downloads .txt report
-
-`http://localhost:5000/Home/Admin` → add a new parcel update (Admin)
+-   **`http://localhost:5000/`**: Main tracking page.
+-   **`http://localhost:5000/Home/Admin`**: The admin dashboard.
+-   **`http://localhost:5000/Home/MyParcels`**: The page to search for parcels by email.
 
 ---
 ##  TODO / Coming Soon
- - Export tracking report as PDF
-
- - Add timeline visual for parcel history
-
- - Style with Bootstrap 5 for mobile-first UX
-
- - Add status icons / color indicators
-
- - Add search + sort controls to list view
-
- - Enable real email notifications (SMTP)
+-   [ ] **Implement a Database:** Replace the file-based storage with a proper database like SQLite or PostgreSQL for better performance and scalability.
+-   [ ] **User Authentication:** Add a login system for administrators and users.
+-   [ ] **Visual Timeline:** Enhance the parcel history view with a graphical timeline.
+-   [ ] **Real Email Notifications:** Integrate an email service (like SendGrid) to send actual notifications.
+-   [ ] **Unit & Integration Tests:** Add a test project to ensure code quality and prevent regressions.
+-   [ ] **Export to PDF/CSV:** Add more formats for downloading reports.
 
 
 
