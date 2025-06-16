@@ -2,7 +2,13 @@
 
 A lightweight ASP.NET Core MVC web application to **track parcels**, **view history**, **filter by status/date**, and manage updates via a simple **admin panel**. Built with simplicity and extensibility in mind.
 
+---
 
+## Technologies Used
+
+* **ASP.NET Core MVC**: For building the web application.
+* **Bootstrap 5**: For responsive and modern UI styling.
+* **C#**: The primary programming language.
 ---
 
 ##  Features
