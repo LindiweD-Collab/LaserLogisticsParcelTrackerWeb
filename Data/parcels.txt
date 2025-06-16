@@ -1,3 +1,5 @@
 LL67890,Sorting Center,2025-05-10,
 LL123456,In-transit,2025-06-16,lindiwethaby@hotmail.com
 LL12345,Delivered,2025-06-16 20:42:30
+LL124318,Delivered,2025-06-16 21:47:43,lindiwe@linkedme.co.za
+LL123453,Delayed,2025-06-16 21:48:18,lindiwe@linkedme.co.za

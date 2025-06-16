@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LaserLogisticsParcelTrackerWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bfdbd2402b60e954ef71d6f71c775358487f70d9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+81160fbeecf70893b077655b9acb57d10ed1cfe3")]
 [assembly: System.Reflection.AssemblyProductAttribute("LaserLogisticsParcelTrackerWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LaserLogisticsParcelTrackerWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

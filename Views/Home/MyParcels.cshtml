@@ -7,10 +7,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
-            background-color: #f4f4f4; /* Light gray background */
+            background-color: #f4f4f4; 
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            color: #333; /* Dark gray text */
-            padding-top: 60px; /* Space for fixed navbar, adjust if you don't have one */
+            color: #333; 
+            padding-top: 60px; 
         }
         .container {
             background-color: #ffffff;
@@ -18,10 +18,10 @@
             border-radius: 8px;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
             margin-top: 30px;
-            max-width: 800px; /* Wider container for the table */
+            max-width: 800px; 
         }
         h1 {
-            color: #333; /* Dark gray heading */
+            color: #333; 
             margin-bottom: 15px;
             text-align: center;
             font-weight: 500;
@@ -41,9 +41,9 @@
             box-shadow: 0 0 0 0.2rem rgba(255, 152, 0, 0.25);
         }
         .btn-primary {
-            background-color: #ff9800; /* Orange button */
+            background-color: #ff9800; 
             border-color: #ff9800;
-            color: #ffffff; /* White text */
+            color: #ffffff; 
             padding: 12px 20px;
             border-radius: 5px;
             transition: background-color 0.2s ease, border-color 0.2s ease;
@@ -56,7 +56,7 @@
             color: #333;
             margin-top: 40px;
             margin-bottom: 20px;
-            border-bottom: 2px solid #ff9800; /* Orange underline */
+            border-bottom: 2px solid #ff9800; 
             padding-bottom: 10px;
             font-weight: 500;
         }
@@ -64,11 +64,11 @@
             background-color: #ffffff;
             border: 1px solid #e0e0e0;
             border-radius: 8px;
-            overflow: hidden; /* Ensures rounded corners on table */
+            overflow: hidden; 
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
         }
         .table thead {
-            background-color: #f0f0f0; /* Lighter gray for table header */
+            background-color: #f0f0f0; 
         }
         .table th {
             color: #555;
@@ -81,10 +81,10 @@
             border-top: 1px solid #e9e9e9;
         }
         .table tbody tr:hover {
-            background-color: #fffaf5; /* Very light orange on hover */
+            background-color: #fffaf5; 
         }
         .btn-info {
-            background-color: #6c757d; /* Gray for view details */
+            background-color: #6c757d; 
             border-color: #6c757d;
             color: #ffffff;
             transition: background-color 0.2s ease, border-color 0.2s ease;
@@ -102,14 +102,7 @@
     </style>
 </head>
 <body>
-    @* Optionally, you can add a fixed navbar here like in the previous example *@
-    @*
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">Laser Logistics</a>
-        </div>
-    </nav>
-    *@
+    
 
     <div class="container">
         <h1>@ViewData["Title"]</h1>
@@ -125,8 +118,8 @@
         @if (Model != null && Model.Parcels != null && Model.Parcels.Any())
         {
             <h3>Search Results for <span style="color: #ff9800;">@Model.Email</span></h3>
-            <div class="table-responsive"> @* Added for better responsiveness on small screens *@
-                <table class="table table-hover"> @* Added table-hover for visual feedback *@
+            <div class="table-responsive"> 
+                <table class="table table-hover"> 
                     <thead>
                         <tr>
                             <th>Tracking Number</th>

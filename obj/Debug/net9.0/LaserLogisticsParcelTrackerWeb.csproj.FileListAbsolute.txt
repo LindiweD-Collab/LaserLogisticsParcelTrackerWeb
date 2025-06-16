@@ -28,4 +28,4 @@
 /home/umuzirecruit/LaserLogisticsParcelTrackerWeb/obj/Debug/net9.0/LaserLogisticsParcelTrackerWeb.genruntimeconfig.cache
 /home/umuzirecruit/LaserLogisticsParcelTrackerWeb/obj/Debug/net9.0/ref/LaserLogisticsParcelTrackerWeb.dll
 /home/umuzirecruit/LaserLogisticsParcelTrackerWeb/obj/Debug/net9.0/LaserLogisticsParcelTrackerWeb.sourcelink.json
-/home/umuzirecruit/LaserLogisticsParcelTrackerWeb/obj/Debug/net9.0/compressed/npr82vbkhr-byhzbk5t96.gz
+/home/umuzirecruit/LaserLogisticsParcelTrackerWeb/obj/Debug/net9.0/compressed/npr82vbkhr-4y9wgpha0z.gz

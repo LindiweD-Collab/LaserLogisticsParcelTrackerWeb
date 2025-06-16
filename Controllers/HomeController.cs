@@ -15,24 +15,38 @@ namespace LaserLogisticsParcelTrackerWeb.Controllers
         }
 
         #region Actions
-        public IActionResult Index(string trackingNumber)
+
+        public IActionResult Index(string trackingNumber, string statusFilter)
         {
+
             if (!string.IsNullOrEmpty(trackingNumber))
             {
                 var parcel = _service.GetParcelByTrackingNumber(trackingNumber);
-                return View("Index", parcel); 
-            }
-            var allParcels = _service.SearchParcels();
-            return View("List", allParcels);
-        }
 
+                return View("Index", parcel);
+            }
+
+            var parcels = _service.SearchParcels(statusFilter);
+
+            ViewData["CurrentFilter"] = statusFilter;
+
+            return View("List", parcels);
+        }
         [HttpGet]
         public IActionResult Admin()
         {
-            ViewBag.StatusCounts = _service.GetStatusAnalytics();
-            ViewBag.StaleParcels = _service.FindStaleParcels(7);
+            var statusCounts = _service.GetStatusAnalytics();
+            var staleParcels = _service.FindStaleParcels(7);
             var allParcels = _service.GetParcelHistorySummary();
-            return View(allParcels);
+
+            var viewModel = new AdminDashboardViewModel
+            {
+                StatusCounts = statusCounts,
+                StaleParcels = staleParcels,
+                AllParcels = allParcels
+            };
+
+            return View(viewModel);
         }
 
         [HttpGet]
